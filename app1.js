@@ -1,10 +1,10 @@
 
 let numberOne = window.prompt("digite um num: ");
 let numberTwo = window.prompt("digite mais um num: ");
-let result = soma()
 
-function soma () {
-    numberOne + numberTwo
+
+let result = function soma () {
+    numberOne + numberTwo   
 }
 
 if (result > 29) {
