@@ -1,21 +1,25 @@
-let numero1 = 10;
-let numero2 = 10;
-let resultado = numero1 + numero2;
 
+let numberOne = window.prompt("digite um num: ");
+let numberTwo = window.prompt("digite mais um num: ");
+let result = soma()
 
-if (resultado > 29) {
+function soma () {
+    numberOne + numberTwo
+}
 
-    console.log("é maior que 29");
+if (result > 29) {
 
-} else if (resultado == 29) {
+    console.log(`a soma dos números é ${result} e é maior que 29`);
 
-    console.log("o resultado é idêntico a 29");
+} else if (result == 29) {
+
+    console.log(`a soma dos números é ${result} e é idêntico a 29`);
 
 } else {
 
-    console.log("o resultado é menor que 29");
+    console.log(`a soma dos números é ${result} e é menor que 29`);
 
 }
 
-console.log("o resultado é: ");
-console.log(resultado);
+
+
