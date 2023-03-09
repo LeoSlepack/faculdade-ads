@@ -23,3 +23,19 @@
     background-color: yellow;
     text-align: center;
 }
+
+p .paragrafo-1 {
+    text-indent: 15px;
+}
+
+p .paragrafo-2 {
+    text-indent: 50px;
+}
+
+p .paragrafo-3 {
+    text-indent: 100px;
+}
+
+ul li {
+    color: darkgreen;
+}
